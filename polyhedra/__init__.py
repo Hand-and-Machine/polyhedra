@@ -9,4 +9,3 @@ from .Solid import Solid
 from .ConvexSolid import ConvexSolid
 from .PlatonicSolid import PlatonicSolid
 from .ArchimedeanSolid import ArchimedeanSolid
-from .test import *

@@ -12,5 +12,9 @@ setup(
     author='Franklin Pezzuti Dyer',
     author_email='franklin+polyhedra@dyer.me',
     packages=find_packages(exclude=('docs', 'tests')),
-    include_package_data=True
+    include_package_data=True,
+    package_requires=[
+        'numpy',
+        'os'
+    ]
     )
