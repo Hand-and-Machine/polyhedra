@@ -1,6 +1,6 @@
-This folder contains Python scripts I've written to generate 3D geometrical forms as STL files by directly writing the contents of the STL files. I'm sure something similar has been done before by someone else, so I may be reinventing the wheel... but hey, I'm learning a lot by doing this!
+This package uses Python scripts I've written to generate 3D geometrical forms as STL files by directly writing the contents of the STL files. I'm sure something similar has been done before by someone else, so I may be reinventing the wheel... but hey, I'm learning a lot by doing this!
 
-Here's a list of the code files with descriptions of their functions:
+Here's a list of the main code files with descriptions of their functions:
 - `tools.py` contains a bunch of functions that are useful for geometrical constructions in 3D.
 - `Solid.py` defines the basic classes `Triangle`, `Face` and `Solid` that are used to build solids and generate STL files.
 - `ConvexSolid.py` implements a (rather inefficient) convex hull algorithm and some other tools for dealing with convex solids.
@@ -8,6 +8,7 @@ Here's a list of the code files with descriptions of their functions:
 
 Here's a table of contents if you want to read about any of the above in greater detail:
 
+- [Installation](#installation)
 - [3D Construction Tools](#3d-construction-tools)
 - [The Solid Class](#the-solid-class)
   + [Supplementary Triangle and Face Classes](#supplementary-triangle-and-face-classes)
@@ -17,6 +18,10 @@ Here's a table of contents if you want to read about any of the above in greater
 - [Special Solids](#special-solids)
   + [Common Solids](#common-solids)
   + [Uniform Solids](#uniform-solids)
+
+## Installation
+
+To install, simply run `python3 -m pip install polyhedra`.
 
 ## 3D Construction Tools
 
