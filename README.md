@@ -23,6 +23,8 @@ Here's a table of contents if you want to read about any of the above in greater
 
 To install, simply run `python3 -m pip install polyhedra`.
 
+This package is [registered with PyPi.](https://pypi.org/project/polyhedra/)
+
 ## 3D Construction Tools
 
 Here's a list of tools for 3D construction defined in `tools.py`:
